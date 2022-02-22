@@ -97,18 +97,18 @@ public class JavaTest
         }
         {//задание f
             String s34 = "2345";
-            //int i1_s34 = new Integer(s34);
+            int i1_s34 = new Integer(s34);
             int i2_s34 = Integer.valueOf(s34);
             int i3_s34 = Integer.parseInt(s34);
-            //System.out.println(i1_s34 + " " + i2_s34 + " " + i3_s34);
+            System.out.println(i1_s34 + " " + i2_s34 + " " + i3_s34);
             {
                 byte[] byteArr_s34 = s34.getBytes(StandardCharsets.UTF_8);
                 System.out.println("String to byte array: " + Arrays.toString(byteArr_s34));
                 String newStrFromByteArr = new String(byteArr_s34);
                 System.out.println("String from byte array: " + newStrFromByteArr);
-                //boolean bool1_s34 = new Boolean(s34);
+                boolean bool1_s34 = new Boolean(s34);
                 boolean bool2_s34 = Boolean.getBoolean(s34);
-                //System.out.println(bool1_s34 + " " + bool2_s34);
+                System.out.println(bool1_s34 + " " + bool2_s34);
                 String s35_1 = new String("8965");
                 String s35_2 = new String("8965");
                 System.out.println(s35_1 == s35_2);
